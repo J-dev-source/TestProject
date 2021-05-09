@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>jQuery To Do List</title>
+
+        <link href="normalize.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        
+        <!-- jQuery UI CSS -->
+        <link href="jquery-ui.min.css" rel="stylesheet">
+
+      
+    </head>
+    
+    <body>   
+        
+        <div class="container" id="todoListWrapper">
+            <h1>Mis Todas Dias Planes</h1>
+            
+            <div id="todoList">
+                <ul>
+                    <li class="listTitle">Lunes</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Martes</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Miercoles</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Jueves</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Viernes</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Sabado</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Domingo</li>
+                    <li class="addItem"><input type="text" placeholder="add new item..."></li>
+                </ul>
+            </div><!-- #todoList -->
+            
+        </div><!-- .container -->
+        
+        <div id="trash">gota item aqui que apagar</div>
+        
+            <!-- Load the CDN first -->
+        <script src="jquery-3.5.1.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <!-- jQuery UI -->
+        <script src="jquery-ui.min.js"></script>
+        
+        <script src="script.js"></script> 
+    </body>
+    
+</html>
+

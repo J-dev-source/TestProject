@@ -1,0 +1,64 @@
+/* Fake Google css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family: Arial,sans-serif;
+font-size: 13px;}
+
+#container {
+    width: 580px;
+    margin: 100px auto;
+    text-align: center;
+
+}
+textarea {
+    border: solid 1px #ccc;
+    resize: none;
+    font-size: 16px;
+}
+input[type="submit"] {background: #eee;
+color: #333; border: solid 1px #ccc;
+padding: 5px; font-size: 11px; font-family:Arial, sans-serif ;
+font-weight: bold; margin:0 5px;}
+
+input[type="submit"]:hover {cursor: pointer;}
+
+small{display: block;
+margin: 10px 0 0 0;
+font-size: 12px;}
+
+a:link, a:visited {color: blueviolet}
+
+nav  {text-align: right;
+padding: 20px;}
+
+nav ul li a:link,
+nav ul li a:visited,
+footer ul li a:link,
+footer ul li a:visited
+{color: #555;
+text-decoration: none; padding: 10px;}
+
+nav ul li a:hover,
+footer ul li a:hover{text-decoration: underline;}
+
+
+nav ul li {display: inline;}
+
+footer {
+    background: #eee; 
+    position: fixed; bottom: 0;
+    width: 100%;
+}
+footer ul li {padding: 20px;}
+footer ul li {display: inline;}
+
+footer ul li {float: left;}
+
+footer ul.right-links {float: right;}
+
+
+

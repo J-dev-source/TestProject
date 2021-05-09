@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>jQuery UI: Sortable</title>
+        
+        <link href="normalize.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        
+        <!-- jQuery UI CSS -->
+        <link href="jquery-ui.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <h1>jQuery UI: Sortable</h1>
+            
+            <ul id="sortable">
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+                <li>List item 4</li>
+                <li>List item 5</li>
+                <li>List item 6</li>
+            </ul>
+            
+            <ul id="sortableToo">
+                <li>Other item A</li>
+                <li>Other item B</li>
+                <li>Other item C</li>
+                <li>Other item D</li>
+                <li>Other item E</li>
+                <li>Other item F</li>
+            </ul>
+        </div><!-- .container -->
+        
+        <!-- Load the CDN first -->
+        <script src="jquery-3.5.1.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <!-- jQuery UI -->
+        <script src="jquery-ui.min.js"></script>
+        
+        <script src="script.js"></script>
+    </body>
+    
+</html>
